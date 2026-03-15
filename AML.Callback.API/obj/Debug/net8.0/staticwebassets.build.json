@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "/lcULY1e0xn8oy1MmUYhUV9XA9nS+N+hvcIKfxiKHeQ=",
+  "Source": "AML.Callback.API",
+  "BasePath": "_content/AML.Callback.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
