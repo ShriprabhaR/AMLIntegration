@@ -55,7 +55,7 @@ namespace AML.Callback.API.Repositories
             );
 
             await connection.ExecuteAsync(
-                "sp_UpdateCustomerScreening",
+                "sp_AML_UpdateCustomerScreening",
                 parameters,
                 commandType: CommandType.StoredProcedure
             );

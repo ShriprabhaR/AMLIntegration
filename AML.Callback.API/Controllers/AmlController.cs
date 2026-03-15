@@ -1,6 +1,5 @@
 ﻿using AML.Callback.API.Models;
 using AML.Callback.API.Services;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AML.Callback.API.Controllers
@@ -19,41 +18,28 @@ namespace AML.Callback.API.Controllers
         }
 
         [HttpPost("update-screening-result")]
-        public async Task<IActionResult> UpdateScreeningResult([FromBody] AmlHitUpdateRequest request)
+        public async Task<IActionResult> UpdateScreeningResult(AmlHitUpdateRequest request)
         {
-            try
+            _logger.LogInformation("AML request received: {@Request}", request);
+
+            var result = await _amlService.UpdateScreeningResult(request);
+
+            if (result)
             {
-                _logger.LogInformation("AML request received: {@Request}", request);
-
-                var result = await _amlService.UpdateScreeningResult(request);
-
-                if (result)
+                return Ok(new AmlResponseMdl
                 {
-                    return Ok(new AmlResponseMdl
-                    {
-                        Status = "SUCCESS",
-                        Message = "Screening result updated",
-                        AlertId = request.AlertId
-                    });
-                }
-
-                return BadRequest(new AmlResponseMdl
-                {
-                    Status = "FAILED",
-                    Message = "Update failed",
+                    Status = "SUCCESS",
+                    Message = "Screening result updated",
                     AlertId = request.AlertId
                 });
             }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Error updating AML screening");
 
-                return StatusCode(500, new
-                {
-                    status = "FAILED",
-                    message = "Internal server error"
-                });
-            }
+            return BadRequest(new AmlResponseMdl
+            {
+                Status = "FAILED",
+                Message = "Update failed",
+                AlertId = request.AlertId
+            });
         }
     }
 }

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.callback.api\\controllers\\amlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|solutionrelative:aml.callback.api\\controllers\\amlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.callback.api\\services\\amlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|solutionrelative:aml.callback.api\\services\\amlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.callback.api\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|solutionrelative:aml.callback.api\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.callback.api\\middleware\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,32 +19,36 @@
       "RelativeMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|solutionrelative:aml.callback.api\\models\\amlresponsemdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.callback.api\\services\\amlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|solutionrelative:aml.callback.api\\services\\amlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.callback.api\\controllers\\amlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|solutionrelative:aml.callback.api\\controllers\\amlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.callback.api\\repositories\\amlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|solutionrelative:aml.callback.api\\repositories\\amlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.callback.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|solutionrelative:aml.callback.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.callback.api\\services\\iamlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|solutionrelative:aml.callback.api\\services\\iamlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94FF147D-95B1-4B5E-9348-D11A745706BD}|AML.Worker\\AML.Worker.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{94FF147D-95B1-4B5E-9348-D11A745706BD}|AML.Worker\\AML.Worker.csproj|solutionrelative:aml.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6D857B4-AFD9-42C0-8ABA-4EE3C6FA44F2}|AML.Shared\\AML.Shared.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.shared\\infrastructure\\sqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6D857B4-AFD9-42C0-8ABA-4EE3C6FA44F2}|AML.Shared\\AML.Shared.csproj|solutionrelative:aml.shared\\infrastructure\\sqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.callback.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|solutionrelative:aml.callback.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.callback.api\\repositories\\iamlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|solutionrelative:aml.callback.api\\repositories\\iamlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.callback.api\\services\\iamlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|solutionrelative:aml.callback.api\\services\\iamlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{94FF147D-95B1-4B5E-9348-D11A745706BD}|AML.Worker\\AML.Worker.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94FF147D-95B1-4B5E-9348-D11A745706BD}|AML.Worker\\AML.Worker.csproj|solutionrelative:aml.worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.callback.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17663B15-0E81-4673-9231-6A8279F0B9BB}|AML.Callback.API\\AML.Callback.API.csproj|solutionrelative:aml.callback.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D857B4-AFD9-42C0-8ABA-4EE3C6FA44F2}|AML.Shared\\AML.Shared.csproj|d:\\aml_benchmatrix\\20260311\\amlintegrationsolution\\aml.shared\\infrastructure\\sqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D857B4-AFD9-42C0-8ABA-4EE3C6FA44F2}|AML.Shared\\AML.Shared.csproj|solutionrelative:aml.shared\\infrastructure\\sqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,24 +58,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Program.cs",
+              "RelativeDocumentMoniker": "AML.Callback.API\\Program.cs",
+              "ToolTip": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Program.cs",
+              "RelativeToolTip": "AML.Callback.API\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T13:33:13.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "AML.Callback.API\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "AML.Callback.API\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T13:32:29.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Worker\\appsettings.json",
               "RelativeDocumentMoniker": "AML.Worker\\appsettings.json",
               "ToolTip": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Worker\\appsettings.json",
               "RelativeToolTip": "AML.Worker\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAACzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-03-15T12:23:39.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "SqlConnectionFactory.cs",
               "DocumentMoniker": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Shared\\Infrastructure\\SqlConnectionFactory.cs",
               "RelativeDocumentMoniker": "AML.Shared\\Infrastructure\\SqlConnectionFactory.cs",
@@ -75,12 +109,11 @@
               "RelativeToolTip": "AML.Shared\\Infrastructure\\SqlConnectionFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T11:54:36.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T11:54:36.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AmlResponseMdl.cs",
               "DocumentMoniker": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Models\\AmlResponseMdl.cs",
               "RelativeDocumentMoniker": "AML.Callback.API\\Models\\AmlResponseMdl.cs",
@@ -93,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\appsettings.json",
               "RelativeDocumentMoniker": "AML.Callback.API\\appsettings.json",
@@ -101,8 +134,7 @@
               "RelativeToolTip": "AML.Callback.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-15T10:16:41.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-15T10:16:41.786Z"
             },
             {
               "$type": "Document",
@@ -119,65 +151,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AmlRepository.cs",
               "DocumentMoniker": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Repositories\\AmlRepository.cs",
               "RelativeDocumentMoniker": "AML.Callback.API\\Repositories\\AmlRepository.cs",
               "ToolTip": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Repositories\\AmlRepository.cs",
               "RelativeToolTip": "AML.Callback.API\\Repositories\\AmlRepository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwEEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwEEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-15T10:15:46.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AmlService.cs",
               "DocumentMoniker": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Services\\AmlService.cs",
               "RelativeDocumentMoniker": "AML.Callback.API\\Services\\AmlService.cs",
               "ToolTip": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Services\\AmlService.cs",
               "RelativeToolTip": "AML.Callback.API\\Services\\AmlService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-15T10:13:26.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "IAmlService.cs",
               "DocumentMoniker": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Services\\IAmlService.cs",
               "RelativeDocumentMoniker": "AML.Callback.API\\Services\\IAmlService.cs",
               "ToolTip": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Services\\IAmlService.cs",
               "RelativeToolTip": "AML.Callback.API\\Services\\IAmlService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-15T10:13:13.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ApiKeyMiddleware.cs",
               "DocumentMoniker": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Middleware\\ApiKeyMiddleware.cs",
               "RelativeDocumentMoniker": "AML.Callback.API\\Middleware\\ApiKeyMiddleware.cs",
               "ToolTip": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Middleware\\ApiKeyMiddleware.cs",
               "RelativeToolTip": "AML.Callback.API\\Middleware\\ApiKeyMiddleware.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-15T10:10:38.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AmlController.cs",
               "DocumentMoniker": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Controllers\\AmlController.cs",
               "RelativeDocumentMoniker": "AML.Callback.API\\Controllers\\AmlController.cs",
               "ToolTip": "D:\\AML_BenchMatrix\\20260311\\AMLIntegrationSolution\\AML.Callback.API\\Controllers\\AmlController.cs",
               "RelativeToolTip": "AML.Callback.API\\Controllers\\AmlController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wCYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-15T10:06:10.63Z",
               "EditorCaption": ""
