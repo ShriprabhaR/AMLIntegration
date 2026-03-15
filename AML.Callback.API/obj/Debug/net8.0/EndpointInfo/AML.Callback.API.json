@@ -1,0 +1,81 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "AML.Callback.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Aml/update-screening-result": {
+      "post": {
+        "tags": [
+          "Aml"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AmlHitUpdateRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AmlHitUpdateRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AmlHitUpdateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AmlHitUpdateRequest": {
+        "required": [
+          "alertId",
+          "customerId",
+          "empUsername",
+          "moduleType",
+          "proscribedStatus"
+        ],
+        "type": "object",
+        "properties": {
+          "customerId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "alertId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "proscribedStatus": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "empUsername": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "finalComments": {
+            "type": "string",
+            "nullable": true
+          },
+          "moduleType": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

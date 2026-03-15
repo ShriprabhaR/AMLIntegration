@@ -1,3 +1,6 @@
+using AML.Callback.API.Middleware;
+using AML.Callback.API.Repositories;
+using AML.Callback.API.Services;
 using AML.Shared.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,12 +12,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<IAmlRepository, AmlRepository>();
+builder.Services.AddScoped<IAmlService, AmlService>();
+
 builder.Services.AddSingleton<SqlConnectionFactory>(sp =>
 {
     var configuration = sp.GetRequiredService<IConfiguration>();
     return new SqlConnectionFactory(
         configuration.GetConnectionString("DefaultConnection"));
 });
+
+
 
 var app = builder.Build();
 
@@ -24,6 +32,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ApiKeyMiddleware>();
 
 app.UseHttpsRedirection();
 

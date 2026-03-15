@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AML.Callback.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ea757f000dc8181ae4cdfe42bd8cf1697f72d73")]
 [assembly: System.Reflection.AssemblyProductAttribute("AML.Callback.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AML.Callback.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

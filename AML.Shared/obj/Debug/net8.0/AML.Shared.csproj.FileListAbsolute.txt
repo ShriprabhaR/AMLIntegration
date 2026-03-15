@@ -22,3 +22,4 @@ D:\AML_BenchMatrix\20260311\AMLIntegrationSolution\AML.Shared\obj\Debug\net8.0\A
 D:\AML_BenchMatrix\20260311\AMLIntegrationSolution\AML.Shared\obj\Debug\net8.0\refint\AML.Shared.dll
 D:\AML_BenchMatrix\20260311\AMLIntegrationSolution\AML.Shared\obj\Debug\net8.0\AML.Shared.pdb
 D:\AML_BenchMatrix\20260311\AMLIntegrationSolution\AML.Shared\obj\Debug\net8.0\ref\AML.Shared.dll
+D:\AML_BenchMatrix\20260311\AMLIntegrationSolution\AML.Shared\obj\Debug\net8.0\AML.Shared.sourcelink.json

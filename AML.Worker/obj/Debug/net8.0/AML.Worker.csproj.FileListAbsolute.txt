@@ -204,3 +204,4 @@ D:\AML_BenchMatrix\20260311\AMLIntegrationSolution\AML.Worker\bin\Debug\net8.0\P
 D:\AML_BenchMatrix\20260311\AMLIntegrationSolution\AML.Worker\bin\Debug\net8.0\Polly.RateLimiting.dll
 D:\AML_BenchMatrix\20260311\AMLIntegrationSolution\AML.Worker\bin\Debug\net8.0\AutoMapper.dll
 D:\AML_BenchMatrix\20260311\AMLIntegrationSolution\AML.Worker\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\AML_BenchMatrix\20260311\AMLIntegrationSolution\AML.Worker\obj\Debug\net8.0\AML.Worker.sourcelink.json

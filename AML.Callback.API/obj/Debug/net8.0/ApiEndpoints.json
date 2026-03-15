@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "AML.Callback.API.Controllers.AmlController",
+    "Method": "UpdateScreeningResult",
+    "RelativePath": "api/Aml/update-screening-result",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AML.Callback.API.Models.AmlHitUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -35,6 +35,7 @@ namespace AML.Worker.Repositories
                 parameters,
                 commandType: CommandType.StoredProcedure
             );
+
         }
     }
 }

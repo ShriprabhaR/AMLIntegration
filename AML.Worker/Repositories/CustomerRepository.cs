@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using AML.Shared.Infrastructure;
 using AML.Shared.Models;
 using Dapper;
+using Microsoft.Extensions.Configuration;
 
 namespace AML.Worker.Repositories
 {
@@ -19,10 +20,12 @@ namespace AML.Worker.Repositories
 
         public async Task<List<ScreeningRequest>> GetCustomersAsync()
         {
+            
+
             using var connection = _connectionFactory.CreateConnection();
 
             var customers = await connection.QueryAsync<ScreeningRequest>(
-                "SPME_GET_AML_PENDING_CUSTOMERS_SCREENING",
+                "SPME_GET_AML_PENDING_CUSTOMERS_SCREENING_RDS1",
                 commandType: System.Data.CommandType.StoredProcedure);
 
             return customers.ToList();
@@ -40,7 +43,7 @@ namespace AML.Worker.Repositories
                     Description = description,
                     StatusMessage = message
                 },
-                commandType: System.Data.CommandType.StoredProcedure);
+            commandType: System.Data.CommandType.StoredProcedure);
         }
     }
 }

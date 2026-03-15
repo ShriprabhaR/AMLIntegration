@@ -17,6 +17,7 @@ namespace AML.Worker.Services
         private string? _cachedToken;
         private DateTime _tokenExpiry;
         private readonly IServiceScopeFactory _scopeFactory;
+
         public AuthService(HttpClient client, IOptions<AMLSettings> settings, ILogger<AuthService> logger, IServiceScopeFactory scopeFactory)
         {
             _client = client;
@@ -92,7 +93,7 @@ namespace AML.Worker.Services
 
                 var errorRepository = scope.ServiceProvider
                     .GetRequiredService<ErrorLogRepository>();
-
+                
                 await errorRepository.LogErrorAsync(
                     "AuthService - GetToken",
                     ex.Message,
