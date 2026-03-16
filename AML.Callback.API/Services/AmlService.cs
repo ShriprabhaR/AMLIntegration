@@ -14,35 +14,30 @@ namespace AML.Callback.API.Services
             _logger = logger;
         }
 
-        public async Task<bool> UpdateScreeningResult(AmlHitUpdateRequest request)
+        public async Task<List<CustomerResponse>> UpdateScreeningResult(List<AmlHitUpdateRequest> requests)
         {
-            if (request == null)
+            if (requests == null || !requests.Any())
             {
-                _logger.LogWarning("AML request is null");
-                throw new ArgumentException("Request cannot be null");
-            }
-
-            if (request.ProscribedStatus != 0 && request.ProscribedStatus != 1)
-            {
-                _logger.LogWarning("Invalid ProscribedStatus: {Status}", request.ProscribedStatus);
-                throw new ArgumentException("ProscribedStatus must be 0 or 1");
+                _logger.LogWarning("AML request list is empty");
+                throw new ArgumentException("Request cannot be empty");
             }
 
             try
             {
-                var result = await _repository.UpdateCustomerScreening(request);
+                var responses = await _repository.UpdateCustomerScreening(requests);
 
-                if (!result)
-                {
-                    _logger.LogWarning("Database update failed for CustomerId: {CustomerId}", request.CustomerId);
-                }
-
-                return result;
+                return responses;
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error while updating AML screening result");
-                throw;
+
+                return requests.Select(x => new CustomerResponse
+                {
+                    CustomerId = x.CustomerId,
+                    StatusCode = 500,
+                    Message = "Failed"
+                }).ToList();
             }
         }
     }

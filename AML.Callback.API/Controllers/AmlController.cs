@@ -18,27 +18,16 @@ namespace AML.Callback.API.Controllers
         }
 
         [HttpPost("update-screening-result")]
-        public async Task<IActionResult> UpdateScreeningResult(AmlHitUpdateRequest request)
+        public async Task<IActionResult> UpdateScreeningResult(List<AmlHitUpdateRequest> request)
+        
         {
             _logger.LogInformation("AML request received: {@Request}", request);
 
-            var result = await _amlService.UpdateScreeningResult(request);
+            var responseList = await _amlService.UpdateScreeningResult(request);
 
-            if (result)
+            return Ok(new ApiResponse
             {
-                return Ok(new AmlResponseMdl
-                {
-                    Status = "SUCCESS",
-                    Message = "Screening result updated",
-                    AlertId = request.AlertId
-                });
-            }
-
-            return BadRequest(new AmlResponseMdl
-            {
-                Status = "FAILED",
-                Message = "Update failed",
-                AlertId = request.AlertId
+                Responses = responseList
             });
         }
     }

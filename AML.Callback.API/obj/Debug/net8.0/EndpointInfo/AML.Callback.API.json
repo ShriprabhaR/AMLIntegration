@@ -14,17 +14,26 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AmlHitUpdateRequest"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AmlHitUpdateRequest"
+                }
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/AmlHitUpdateRequest"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AmlHitUpdateRequest"
+                }
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/AmlHitUpdateRequest"
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/AmlHitUpdateRequest"
+                }
               }
             }
           }
