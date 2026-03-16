@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AML.Worker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ea757f000dc8181ae4cdfe42bd8cf1697f72d73")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3ea3530c5fb1a4df3b5686686befc3b261bba9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("AML.Worker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AML.Worker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

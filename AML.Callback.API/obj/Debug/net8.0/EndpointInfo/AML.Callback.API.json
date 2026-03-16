@@ -16,7 +16,7 @@
               "schema": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/AmlHitUpdateRequest"
+                  "$ref": "#/components/schemas/AmlUpdateRequest"
                 }
               }
             },
@@ -24,7 +24,7 @@
               "schema": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/AmlHitUpdateRequest"
+                  "$ref": "#/components/schemas/AmlUpdateRequest"
                 }
               }
             },
@@ -32,7 +32,7 @@
               "schema": {
                 "type": "array",
                 "items": {
-                  "$ref": "#/components/schemas/AmlHitUpdateRequest"
+                  "$ref": "#/components/schemas/AmlUpdateRequest"
                 }
               }
             }
@@ -48,11 +48,12 @@
   },
   "components": {
     "schemas": {
-      "AmlHitUpdateRequest": {
+      "AmlUpdateRequest": {
         "required": [
           "alertId",
           "customerId",
           "empUsername",
+          "finalComments",
           "moduleType",
           "proscribedStatus"
         ],
@@ -75,8 +76,8 @@
             "type": "string"
           },
           "finalComments": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "moduleType": {
             "minLength": 1,

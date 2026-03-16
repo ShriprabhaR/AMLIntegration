@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "System.Collections.Generic.List\u00601[[AML.Callback.API.Models.AmlHitUpdateRequest, AML.Callback.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[AML.Callback.API.Models.AmlUpdateRequest, AML.Callback.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],

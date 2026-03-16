@@ -2,7 +2,7 @@
 
 namespace AML.Callback.API.Models
 {
-    public class AmlHitUpdateRequest
+    public class AmlUpdateRequest
     {
         [Required]
         public string CustomerId { get; set; }
@@ -16,6 +16,7 @@ namespace AML.Callback.API.Models
         [Required]
         public string EmpUsername { get; set; }
 
+        [Required]
         public string FinalComments { get; set; }
 
         [Required]

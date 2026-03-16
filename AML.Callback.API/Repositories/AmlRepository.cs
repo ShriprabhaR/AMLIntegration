@@ -17,7 +17,7 @@ namespace AML.Callback.API.Repositories
             _connectionFactory = connectionFactory;
             _configuration = configuration;
         }
-        public async Task<List<CustomerResponse>> UpdateCustomerScreening(List<AmlHitUpdateRequest> requests)
+        public async Task<List<CustomerResponse>> UpdateCustomerScreening(List<AmlUpdateRequest> requests)
         {
             using var connection = _connectionFactory.CreateConnection();
 
@@ -49,7 +49,7 @@ namespace AML.Callback.API.Repositories
             );
 
             var result = await connection.QueryAsync<CustomerResponse>(
-                "sp_AML_UpdateCustomerScreening",
+                "SPME_AML_UPDATE_WS2_RESULT",
                 parameters,
                 commandType: CommandType.StoredProcedure
             );

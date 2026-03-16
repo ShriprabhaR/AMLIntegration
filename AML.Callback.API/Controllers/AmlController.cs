@@ -18,8 +18,7 @@ namespace AML.Callback.API.Controllers
         }
 
         [HttpPost("update-screening-result")]
-        public async Task<IActionResult> UpdateScreeningResult(List<AmlHitUpdateRequest> request)
-        
+        public async Task<IActionResult> UpdateScreeningResult(List<AmlUpdateRequest> request)
         {
             _logger.LogInformation("AML request received: {@Request}", request);
 

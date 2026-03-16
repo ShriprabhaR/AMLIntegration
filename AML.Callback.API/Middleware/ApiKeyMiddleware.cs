@@ -25,7 +25,6 @@
                 await context.Response.WriteAsync("Invalid API Key");
                 return;
             }
-
             await _next(context);
         }
     }

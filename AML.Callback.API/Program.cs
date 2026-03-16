@@ -22,8 +22,6 @@ builder.Services.AddSingleton<SqlConnectionFactory>(sp =>
         configuration.GetConnectionString("DefaultConnection"));
 });
 
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

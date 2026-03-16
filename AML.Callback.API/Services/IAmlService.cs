@@ -4,7 +4,7 @@ namespace AML.Callback.API.Services
 {
     public interface IAmlService
     {
-        Task<List<CustomerResponse>> UpdateScreeningResult(List<AmlHitUpdateRequest> request);
+        Task<List<CustomerResponse>> UpdateScreeningResult(List<AmlUpdateRequest> request);
     }
 
 }

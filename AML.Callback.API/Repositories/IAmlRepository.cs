@@ -4,6 +4,6 @@ namespace AML.Callback.API.Repositories
 {
     public interface IAmlRepository
     {
-        Task<List<CustomerResponse>> UpdateCustomerScreening(List<AmlHitUpdateRequest> requests);
+        Task<List<CustomerResponse>> UpdateCustomerScreening(List<AmlUpdateRequest> requests);
     }
 }
